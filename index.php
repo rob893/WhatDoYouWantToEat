@@ -183,9 +183,9 @@ require_once("header.php");
 			<div class='col-sm-4'>
 				<div class='form-group'>
             		<input type='hidden' name='currentCoords' id='currentCoords'>
-            		<label for='keyword'>Keyword:</label><br>
+            		<label for='keyword'>Keyword (Not Required):</label><br>
             		<input type='text' name='keyword' id='keyword'><br><br>
-            		<label for='distance'>Miles willing to travel:</label><br>
+            		<label for='distance'>Miles willing to travel (Not Required):</label><br>
             		<input type='number' name='distance' id='distance'><br><br>
             		<input name='submit' type='submit' value="I Don't FUCKING Know">
             	</div>
