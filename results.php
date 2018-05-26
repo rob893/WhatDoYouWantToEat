@@ -44,15 +44,14 @@ if(count($data['results']) == 0){
 		$open = "No posted hours";
 	}
 	
-    echo "<p>Number of results: ".count($data['results'])."</p><p>How about this place?</p>";
+    //echo "<p>Number of results: ".count($data['results'])."</p><p>How about this place?</p>";
+    echo "<p>How about this place?</p>";
     echo $data['results'][$selection]['name']."<br>";
     echo $data['results'][$selection]['vicinity']."<br>";
-	echo "Open Now: ".$open."<br>";
+    echo "Open Now: ".$open."<br><br>";
 	
     ?>
-    <div class='container-fluid'>
-		<div id="map"></div>
-    </div>
+    <div id="map"></div>
     
     <script>
     	function initMap() {
